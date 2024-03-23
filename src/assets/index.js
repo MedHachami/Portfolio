@@ -1,6 +1,5 @@
 import logoo from "./logo.png";
 import Vanshika from "./Vanshika.png";
-import Abhi from "./Abhi.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import machine from "./machine.svg";

@@ -21,7 +21,6 @@ import {
   drf,
   threejs,
   Vanshika,
-  Abhi,
   nodejs,
   laravel,
 } from "../assets";
@@ -139,38 +138,7 @@ const experiences = [
       "Supporting file uploads through the API and managing file storage and retrieval using (AWS S3 or Spatie Media )",
     ],
   },
-  // {
-  //   title: "ML & DL",
-  //   company_name: "Research in ML & DL",
-  //   icon: machine,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Conducting a comprehensive review of existing research papers, articles, and publications to understand the current state of the art in ML and DL.",
-  //     "Assisting in the design and implementation of new ML/DL algorithms or improving existing ones.",
-  //     "Running experiments with ML/DL models to evaluate their performance on different datasets and use cases.",
-  //     "Collaborating with other researchers and team members to brainstorm ideas, discuss findings, and contribute to ongoing research projects.",
-  //   ],
-  // },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "Ronit has done outstanding work as a team member. He possesses a strong work ethic, attention to detail, and ability to deliver high-quality results consistently, It was a pleasure to work with him.",
-    name: "Vanshika Pandey",
-    designation: "Software Developer",
-    company: "JPMorgan Chase",
-    image: Vanshika,
-  },
-  {
-    testimonial:
-      "Ronit is an amazing individual who consistently demonstrates unwavering dedication and passion in any work he undertakes.His work ethic and his approach towards any task has been with meticulous attention to detail and a very systematic mindset.",
-    name: "Abhishek Saigiridhari",
-    designation: "GET",
-    company: "LTIMindtree",
-    image: Abhi,
-  },
+  
 ];
 
 const projects = [
