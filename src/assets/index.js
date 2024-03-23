@@ -42,7 +42,6 @@ export {
   django,
   flutter,
   Vanshika,
-  Abhi,
   logoo,
   backend,
   creator,
