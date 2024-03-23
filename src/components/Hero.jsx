@@ -8,6 +8,8 @@ import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas/";
 import TypeWriter from './TypeWriter';
+import profileImg from '../assets/me2-removebg-preview.png';
+
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
@@ -49,7 +51,7 @@ const Hero = () => {
             </Sphere>
           </Suspense>
         </Canvas>
-        <img src="./me2-removebg-preview.png" className="absolute left-[20rem] bottom-[10rem] w-[25rem]" alt="" srcset="" />
+        <img src={profileImg} className="absolute left-[20rem] bottom-[10rem] w-[25rem]" alt="" srcset="" />
       </div>
 
       <div className='absolute xs:bottom-10 bottom-34 w-full flex justify-center items-center'>
