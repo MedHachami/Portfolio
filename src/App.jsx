@@ -11,6 +11,7 @@ const App = () => {
       <div className='relative z-0 bg-primary'>
         {/* bg-hero-pattern */}
         <div
+        className="hero"
         style={{'width':'100%'}}
         >
           <Navbar />

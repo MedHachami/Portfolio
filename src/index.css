@@ -274,18 +274,30 @@
   font-size: 36px;
 }
 
+.img {
+  object-fit: contain;
+  animation: animate 2s infinite ease alternate;
+
+  @keyframes animate {
+    to {
+      transform: translateY(14px);
+    }
+  }
+
+}
+
 @media (max-width: 1658px) {
-  .me-bg{
+  .me-bg {
     position: relative;
     left: 550px;
 
   }
 
-  .img{
+  .img {
     left: 280px;
     width: 20rem;
     bottom: 92%;
-    
+
   }
 
 
@@ -293,21 +305,53 @@
 }
 
 
-@media (max-width: 1030px) {
-  .me-bg{
+@media (max-width: 1024px) {
+  .me-bg {
     position: relative;
-    left: 450px;
-    top:19rem ;
+    left: 418px;
+    top: 19rem;
 
   }
 
-  .img{
+  .img {
     left: 180px;
     width: 20rem;
     bottom: 90%;
-    
+
+  }
+}
+
+@media (max-width: 768px) {
+  .me-bg {
+    position: relative;
+    left: 270px;
+    top: 30rem;
+    width: 60%;
+    height: 60%;
+
   }
 
+  .img {
+    left: 150px;
+    width: 15rem;
+    bottom: 92%;
+
+  }
+}
+
+
+@media (max-width: 425px) {
+  .hero{
+    height: 60vh;
+  }
+  .cursor {
+    margin-top: 32rem;
+  }
+
+  .me-bg {
+    display: none;
+
+  }
 
 
 }
