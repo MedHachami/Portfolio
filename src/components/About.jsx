@@ -47,12 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience
-        in frameworks like React,Express,and Laravel .
-        I'm a quick learner and collaborate closely with colleagues to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am an adept software developer proficient in frameworks such as React,
+        Express, and Laravel. Possessing a keen ability to rapidly acquire new skills,
+        I actively engage in collaborative efforts with peers to engineer efficient,
+        scalable, and intuitive solutions tailored to address practical challenges.
+        I am eager to join forces with you in materializing your conceptualizations into tangible realities.
       </motion.p>
+      <motion.div variants={textVariant()}>
+        <h2 className={styles.sectionHead2Text}>Competences</h2>
+      </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
