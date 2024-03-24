@@ -24,15 +24,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import chatApp from './chatApp.png'
+import subSync from './subSync.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import fms from "./fms.png";
 import hpy from "./hpy.png";
-import travlog from "./travlog.png";
+import evento from "./evento_.png";
 import hiq from "./hiq.png";
 import drf from "./drf.png";
 import tripguide from "./tripguide.png";
@@ -47,7 +48,7 @@ export {
   creator,
   mobile,
   web,
-  travlog,
+  evento,
   github,
   menu,
   close,
@@ -69,8 +70,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  fms,
   hiq,
   hpy,
   drf,
+  chatApp,
+  subSync
 };

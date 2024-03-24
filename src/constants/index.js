@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  travlog,
+  evento,
   django,
   machine,
   html,
@@ -16,13 +16,14 @@ import {
   git,
   figma,
   docker,
-  fms,
   flutter,
   drf,
   threejs,
   Vanshika,
   nodejs,
   laravel,
+  chatApp,
+  subSync
 } from "../assets";
 
 export const navLinks = [
@@ -143,110 +144,71 @@ const experiences = [
 
 const projects = [
   {
-    name: "Travlog",
+    name: "Evento",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Creation of an innovative platform dedicated to the management and booking of event spaces",
     tags: [
       {
-        name: "flutter",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
-        name: "appdev",
+        name: "webapp",
         color: "pink-text-gradient",
       },
     ],
-    image: travlog,
+    image: evento,
     source_code_link: "https://github.com/britster03",
   },
   {
-    name: "FundMyStartup",
+    name: "SubSync",
     description:
-      "A startup funding website can be a great way to help connect entrepreneurs with investors and facilitate the funding process.",
+      "This project consists of presenting the latest news, articles, using resource consumption (RSS). In addition to this, it includes other features such as adding comments, the possibility of adding articles to favorites, etc.",
     tags: [
       {
-        name: "web",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "media",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "webapp",
         color: "pink-text-gradient",
       },
     ],
-    image: fms,
+    image: subSync,
     source_code_link: "https://github.com/britster03",
   },
   {
-    name: "HealthIQ",
+    name: "Chat rooms",
     description:
-      "A healthcare-related project for a medical app. It has a module for automatically arranging appointments based on the patient's chosen health status. With two apps, access to Doctor & Patient is simple.",
+      "This project consists of presenting the latest news, articles, using resource consumption (RSS). In addition to this, it includes other features such as adding comments, the possibility of adding articles to favorites, etc.",
     tags: [
       {
-        name: "flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
-        name: "machinelearning",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: hiq,
-    source_code_link: "https://github.com/britster03",
-  },
-  {
-    name: "HappyCart",
-    description:
-      " A Shopping Cart web app enabled with Firebase authetication & real-time payments using Stripe API.",
-    tags: [
-      {
-        name: "reactjs",
+        name: "media",
         color: "blue-text-gradient",
       },
+
       {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "stripeapi",
+        name: "webapp",
         color: "pink-text-gradient",
       },
     ],
-    image: hpy,
+    image: chatApp,
     source_code_link: "https://github.com/britster03",
   },
-  {
-    name: "DRF Blog Website",
-    description:
-      "A Django DRF App with ReactJS Front-End. Includes JWT Token Authentication, CRUD, Image Uploading/Handling & Social Logins with React and DRF.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "djangoRESTAPI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "django",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: drf,
-    source_code_link: "https://github.com/britster03",
-  },
+  
 ];
 
 export { services, technologies, experiences, projects };
