@@ -11,6 +11,7 @@ import {
   hpy,
   css,
   reactjs,
+  scrum,
   hiq,
   mongodb,
   git,
@@ -46,7 +47,7 @@ const services = [
     icon: web,
   },
   {
-    title: "MERN StacK Developer",
+    title: "MERN Stack Developer",
     icon: creator,
   },
   {
@@ -137,6 +138,19 @@ const experiences = [
       "Implementing serializers to convert complex data types into JSON or other formats suitable for API responses.",
       "Implementing authentication mechanisms and setting up permissions to control access to API endpoints. (Sanctum or Passport and use also spatie permissions  )",
       "Supporting file uploads through the API and managing file storage and retrieval using (AWS S3 or Spatie Media )",
+    ],
+  },
+  {
+    title: "Scrum Master",
+    company_name: "Agile Project Management & Team Leadership",
+    icon: scrum,
+    iconBg: "#383E56",
+    date: "Sep 2023 - Present",
+    points: [
+      "Collaborating closely with Product Owners to refine the product backlog, prioritize user stories, and ensure alignment with business objectives.",
+      "Facilitating Scrum ceremonies including daily stand-ups, sprint planning, sprint reviews, and retrospectives to foster collaboration, communication, and transparency. Removing impediments and resolving conflicts to ensure smooth and uninterrupted progress of sprint goals.",
+      "Tracking and monitoring project progress using Agile tools such as  Trello and Github Projects, and providing regular updates to stakeholders.",
+      "Guiding and coaching development teams on Agile principles and Scrum practices to enhance productivity and deliver high-quality software products.",
     ],
   },
   
