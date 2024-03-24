@@ -10,12 +10,14 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         {/* bg-hero-pattern */}
-        <div className=' bg-cover bg-no-repeat bg-center'>
+        <div
+        style={{'width':'100%'}}
+        >
           <Navbar />
           <Hero />
         </div>
         <About />
-        <div className="bg-hero-pattern">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Experience />
 
         </div>
