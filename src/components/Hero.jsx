@@ -13,9 +13,11 @@ import profileImg from '../assets/me2-removebg-preview.png';
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
-      <div id="stars" />
-      <div id="stars2" />
-      <div id="stars3" />
+      <div className="hidden">
+        <div id="stars" />
+        <div id="stars2" />
+        <div id="stars3" />
+      </div>
       <div className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}  >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -35,12 +37,12 @@ const Hero = () => {
       </div>
 
       {/* <ComputersCanvas /> */}
-      <div className="relative w-1/2 h-[80%] left-[55rem] top-[15rem] " style={{ }}>
+      <div className="relative w-[60%] h-[80%] left-[46rem] top-[15rem] me-bg" style={{}}>
         <Canvas style={{ width: '100%', height: '100%', }}>
           <Suspense fallback={null}>
             <OrbitControls enableZoom={false} />
             <ambientLight intensity={1} />
-            <directionalLight position={[1, 2, 1]} />
+            <directionalLight position={[1, 2, 1]} /> 
             <Sphere args={[1, 100, 200]} scale={2.4}>
               <MeshDistortMaterial
                 color="#C0C0C0"
@@ -51,7 +53,7 @@ const Hero = () => {
             </Sphere>
           </Suspense>
         </Canvas>
-        <img src={profileImg} className="absolute left-[20rem] bottom-[10rem] w-[25rem]" alt="" srcset="" />
+        <img src={profileImg} className="relative left-[24rem] bottom-[100%] w-[25rem]  img" alt="" srcset="" />
       </div>
 
       <div className='absolute xs:bottom-10 bottom-34 w-full flex justify-center items-center'>
