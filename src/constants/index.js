@@ -176,7 +176,7 @@ const projects = [
       },
     ],
     image: evento,
-    source_code_link: "https://github.com/britster03",
+    source_code_link: "https://github.com/MedHachami",
   },
   {
     name: "SubSync",
@@ -198,12 +198,12 @@ const projects = [
       },
     ],
     image: subSync,
-    source_code_link: "https://github.com/britster03",
+    source_code_link: "https://github.com/MedHachami",
   },
   {
-    name: "Chat rooms",
+    name: "Chat FLow",
     description:
-      "This project consists of presenting the latest news, articles, using resource consumption (RSS). In addition to this, it includes other features such as adding comments, the possibility of adding articles to favorites, etc.",
+      "The objective of this project is to design a real-time messaging application using WebSockets, including features such as friend requests, blocking, etc.",
     tags: [
       {
         name: "laravel",
@@ -220,7 +220,7 @@ const projects = [
       },
     ],
     image: chatApp,
-    source_code_link: "https://github.com/britster03",
+    source_code_link: "https://github.com/MedHachami",
   },
   
 ];
